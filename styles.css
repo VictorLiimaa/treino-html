@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+  background-color: #8E0082;
+  color: white; 
+  padding: 1px;
+  font-size: 12px;
+}
+
+h1{
+  margin-left: 15px;
+}
+
+.informacoes{
+ display: grid;
+ height: 100%;
+}
+
+.circulo{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #F2DFD5;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid #8E0082;
+}
+
+img{
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo{
+  color: #8E0082;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo p{
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo p2{
+ color: #CCCCCC;
+}
+
+.sobreFavoritos{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  font-size: 12px;
+}
+
+.texto{
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.texto p{
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 200px;
+
+}
+.texto p1{
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.divisoria{
+ color: #CCCCCC;
+ margin-top: 50px;
+}
+
+.bio{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.bio p{
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 68px;
+}
